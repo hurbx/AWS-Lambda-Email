@@ -7,10 +7,10 @@ from email.mime.text import MIMEText
 
 
 
-endpoint = 'telemetry-test.cixjrvihozds.us-west-2.rds.amazonaws.com'
-username = 'admin'
-password = 'adminsql'
-database_name = 'h_Telemetry_Reborn'
+endpoint = 'endpoint'
+username = 'username'
+password = 'pass'
+database_name = 'db_name'
 
 connection = pymysql.connect(host=endpoint, user=username,
                              password=password, db=database_name)
