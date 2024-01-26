@@ -38,7 +38,7 @@ def lambda_handler(event, context):
 
     msg = MIMEMultipart()
     message = "El vehiculo con sniffer "+" "+ sniffer +" "+ " subio un archivo a AWS\n" + "el path del archivo es " +" "+ key
-    password = 'zyhhy4-dofher-dusgUt'
+    password = 'pass'
     msg['From'] = 'hurbina@rebornelectric.cl'
     msg['To'] = 'hugo.urbina@mayor.cl'
     msg['Subject'] = 'nuevo archivo en S3 de '+" "+ sniffer 
